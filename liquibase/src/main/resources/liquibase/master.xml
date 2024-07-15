@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                                http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+        <include file="liquibase/changelog/20240713165349_create_table_pessoa.xml" relativeToChangelogFile="false"/>
+        <include file="liquibase/changelog/202407131706982_add_column_contato_pessoa.xml" relativeToChangelogFile="false"/>
+        <include file="liquibase/changelog/teste.xml" relativeToChangelogFile="false"/>
+        <include file="liquibase/changelog/create.sql" relativeToChangelogFile="false"/>
+        <include file="liquibase/changelog/add_column_rg_pessoa.sql" relativeToChangelogFile="false"/>
+
+</databaseChangeLog>
